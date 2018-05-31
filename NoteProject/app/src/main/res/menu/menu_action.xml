@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_action_search"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" />
+
+    <item  android:id="@+id/action_add"
+           android:icon="@drawable/add_button"
+           android:orderInCategory="100"
+           android:title="添加"
+           app:showAsAction="always" >
+
+    </item>
+
+    <item android:id="@+id/action_backup"
+          android:title="数据备份"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_backdata"
+          android:title="恢复数据"
+          app:showAsAction="never"/>
+
+
+
+
+
+</menu>
